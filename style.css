@@ -16,7 +16,7 @@
   border: none;
   background-color: transparent;
   margin: 0 auto;
-  width: 10%;
+  width: auto;
   flex: 1;
 }
 
