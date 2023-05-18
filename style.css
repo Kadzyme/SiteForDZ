@@ -1,9 +1,7 @@
-.container {
-  width: 60%;
-  height: 5%;
-  text-align: center;
-  margin: 0 auto;
+.header-container {
   display: flex;
+  justify-content: center;
+  gap: 100px;
 }
 
 .header {
@@ -11,13 +9,7 @@
   font-weight: 400;
   font-style: normal;
   font-size: 4vh;
-  height: 100%;
   color: #7d7d7d;
-  border: none;
-  background-color: transparent;
-  margin: 0 auto;
-  width: auto;
-  flex: 1;
 }
 
 .header:hover {
@@ -25,12 +17,29 @@
   color: #03a9f4;
 }
 
-.card {
-  width: 420px;
-  margin: 100px;
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  gap: 65px;
 }
 
-.card-title {
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 130px;
+}
+
+.item {
+  width: 420px;
+}
+
+.item-title {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
@@ -39,7 +48,7 @@
   color: #626262;
   margin-top: 32px;
 }
-.card-subtitle {
+.item-subtitle {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -48,7 +57,7 @@
   margin-top: 62px;
 }
 
-.card-text {
+.item-text {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
